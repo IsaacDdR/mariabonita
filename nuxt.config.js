@@ -15,16 +15,28 @@ export default {
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [],
+  css: ['@/assets/main.css'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [],
+  plugins: ['@/plugins/aos.client'],
+
+  server: {
+    host: '0',
+  },
+
+  fontawesome: {
+    icons: {
+      solid: ['faPhone', 'faChevronDown', 'faGlassCheers'],
+      brands: ['faFacebook', 'faInstagram', 'faGoogle', 'faWhatsapp'],
+    },
+  },
 
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/fontawesome',
     '@nuxt/image',
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
@@ -51,5 +63,7 @@ export default {
     base: '/mariabonita/',
   },
   // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {},
+  build: {
+    extractCss: true,
+  },
 }
