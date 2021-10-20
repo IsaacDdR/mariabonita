@@ -29,7 +29,6 @@
               title="Galería"
               class="
                 text-2xl
-                font-medium
                 tracking-wide
                 transition-colors
                 duration-200
