@@ -29,12 +29,12 @@
                 font-bold
                 tracking-tight
                 text-maria-pink
-                sm:text-4xl sm:leading-none
+                sm:leading-none
               "
             >
-              Let us handle<br class="hidden md:block" />
-              your next
-              <span class="inline-block text-red-400">destination</span>
+              Déjanos crear una <br class="hidden md:block" />
+              experiencia
+              <span class="inline-block text-red-400">inolvidable</span>
             </h2>
             <p class="text-base text-red-100 text-xl md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -43,8 +43,8 @@
             </p>
           </div>
           <div>
-            <a
-              href="/"
+            <NuxtLink
+              to="/nosotros"
               aria-label=""
               class="
                 inline-flex
@@ -52,11 +52,11 @@
                 font-semibold
                 transition-colors
                 duration-200
-                text-deep-purple-accent-400
-                hover:text-deep-purple-800
+                text-maria-pink
+                hover:text-red-500
               "
             >
-              Learn more
+              Conócenos
               <svg
                 class="inline-block w-3 ml-2"
                 fill="currentColor"
@@ -66,7 +66,7 @@
                   d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"
                 ></path>
               </svg>
-            </a>
+            </NuxtLink>
           </div>
         </div>
         <div class="flex items-center justify-center -mx-4 lg:pl-8">

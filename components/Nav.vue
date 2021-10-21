@@ -1,5 +1,12 @@
 <template>
-  <div class="fixed w-full backdrop-filter backdrop-blur-xl">
+  <div
+    class="
+      fixed
+      w-full
+      backdrop-filter backdrop-blur-xl
+      bg-red-100 bg-opacity-10
+    "
+  >
     <div
       class="
         px-4
@@ -29,6 +36,7 @@
               title="Galería"
               class="
                 text-2xl
+                font-bold
                 tracking-wide
                 transition-colors
                 duration-200
@@ -45,7 +53,7 @@
               title="Nosotros"
               class="
                 text-2xl
-                font-medium
+                font-bold
                 tracking-wide
                 text-maria-pink
                 hover:text-red-300
@@ -62,7 +70,7 @@
               title="Contacto"
               class="
                 text-2xl
-                font-medium
+                font-bold
                 tracking-wide
                 text-maria-pink
                 hover:text-red-300
@@ -174,7 +182,7 @@
                       title="Nosotros"
                       class="
                         text-2xl
-                        font-medium
+                        font-bold
                         tracking-wide
                         text-black
                         transition-colors
@@ -191,7 +199,7 @@
                       title="Galería"
                       class="
                         text-2xl
-                        font-medium
+                        font-bold
                         tracking-wide
                         text-black
                         transition-colors
@@ -207,7 +215,7 @@
                       title="Contacto"
                       class="
                         text-2xl
-                        font-medium
+                        font-bold
                         tracking-wide
                         text-black
                         transition-colors
