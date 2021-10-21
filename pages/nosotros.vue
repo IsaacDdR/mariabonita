@@ -247,24 +247,6 @@
             </div>
           </div>
         </div>
-        <button
-          class="
-            flex
-            mx-auto
-            mt-16
-            text-white
-            bg-maria-pink
-            border-0
-            py-2
-            px-8
-            focus:outline-none
-            hover:bg-indigo-600
-            rounded
-            text-xl
-          "
-        >
-          Button
-        </button>
       </div>
     </section>
     <section class="text-gray-400 bg-gray-900 body-font">
