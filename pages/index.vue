@@ -178,7 +178,7 @@
               sm:text-4xl
             "
           >
-            <span class="inline-block mb-2">The brown fox</span>
+            <span class="inline-block mb-2">Momentos memorables</span>
             <div
               class="
                 h-1
@@ -193,7 +193,7 @@
             ></div>
           </h2>
         </div>
-        <p class="w-full text-maria-pink lg:text-sm lg:max-w-md">
+        <p class="w-full text-maria-pink text-xl lg:max-w-md">
           "Sed ut perspiciatis unde omnis iste natus error sit iste voluptatem
           accusantium doloremque rem aperiam, ipsa eaque quae. Sed ut
           perspiciatis unde omnis iste."
@@ -215,10 +215,12 @@
             src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
-          <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+          <p
+            class="mb-2 text-xl font-bold text-red-400 leading-none sm:text-2xl"
+          >
             Galaxies Orion
           </p>
-          <p class="text-gray-700">
+          <p class="text-gray-700 text-red-400">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -238,10 +240,12 @@
             src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
-          <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+          <p
+            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+          >
             Tunguska event
           </p>
-          <p class="text-gray-700">
+          <p class="text-gray-700 text-red-400">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -261,10 +265,12 @@
             src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
-          <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+          <p
+            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+          >
             Yolo ipsum dolor
           </p>
-          <p class="text-gray-700">
+          <p class="text-gray-700 text-red-400">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -284,10 +290,12 @@
             src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
-          <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+          <p
+            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+          >
             Curabitur mattis
           </p>
-          <p class="text-gray-700">
+          <p class="text-gray-700 text-red-400">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -307,10 +315,12 @@
             src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
             alt=""
           />
-          <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+          <p
+            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+          >
             Leverage agile
           </p>
-          <p class="text-gray-700">
+          <p class="text-gray-700 text-red-400">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -330,10 +340,12 @@
             src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
             alt=""
           />
-          <p class="mb-2 text-xl font-bold leading-none sm:text-2xl">
+          <p
+            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+          >
             Organically grow
           </p>
-          <p class="text-gray-700">
+          <p class="text-gray-700 text-maria-pink">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
