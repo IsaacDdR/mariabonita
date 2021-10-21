@@ -220,7 +220,7 @@
           >
             Galaxies Orion
           </p>
-          <p class="text-gray-700 text-red-400">
+          <p class="text-gray-700 text-maria-pink">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -245,7 +245,7 @@
           >
             Tunguska event
           </p>
-          <p class="text-gray-700 text-red-400">
+          <p class="text-gray-700 text-maria-pink">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -270,7 +270,7 @@
           >
             Yolo ipsum dolor
           </p>
-          <p class="text-gray-700 text-red-400">
+          <p class="text-gray-700 text-maria-pink">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -295,7 +295,7 @@
           >
             Curabitur mattis
           </p>
-          <p class="text-gray-700 text-red-400">
+          <p class="text-gray-700 text-maria-pink">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -320,7 +320,7 @@
           >
             Leverage agile
           </p>
-          <p class="text-gray-700 text-red-400">
+          <p class="text-gray-700 text-maria-pink">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -352,8 +352,8 @@
         </div>
       </div>
       <div class="text-center">
-        <a
-          href="/"
+        <NuxtLink
+          to="/"
           aria-label=""
           class="
             inline-flex
@@ -361,11 +361,10 @@
             font-semibold
             transition-colors
             duration-200
-            text-deep-purple-accent-400
-            hover:text-deep-purple-800
+            text-maria-pink
           "
         >
-          See more
+          Conóce más
           <svg
             class="inline-block w-3 ml-2"
             fill="currentColor"
@@ -375,7 +374,7 @@
               d="M9.707,5.293l-5-5A1,1,0,0,0,3.293,1.707L7.586,6,3.293,10.293a1,1,0,1,0,1.414,1.414l5-5A1,1,0,0,0,9.707,5.293Z"
             ></path>
           </svg>
-        </a>
+        </NuxtLink>
       </div>
     </div>
   </div>
