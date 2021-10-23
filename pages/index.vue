@@ -101,6 +101,7 @@
                 sm:w-32
                 xl:w-40
               "
+              format="webp"
               sizes="sm:500px"
               src="/img/maria-bonita-3.jpeg"
               alt=""
@@ -120,6 +121,7 @@
                 xl:w-80
               "
               sizes="sm:300px md:500px"
+              format="webp"
               src="/img/maria-bonita-2.jpeg"
               alt=""
             />
@@ -144,7 +146,7 @@
         class="flex flex-col w-full mb-6 lg:justify-between lg:flex-row md:mb-8"
       >
         <div class="flex items-center mb-5 md:mb-6 group lg:max-w-xl">
-          <a href="/" aria-label="Item" class="mr-3">
+          <span aria-label="Item" class="mr-3">
             <div
               class="
                 flex
@@ -170,7 +172,7 @@
                 ></polygon>
               </svg>
             </div>
-          </a>
+          </span>
           <h2
             class="
               font-sans

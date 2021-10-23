@@ -13,15 +13,15 @@
   >
     <div class="grid gap-10 row-gap-6 mb-8 sm:grid-cols-2 lg:grid-cols-4">
       <div class="sm:col-span-2">
-        <a
-          href="/"
+        <NuxtLink
+          to="/"
           aria-label="Maria Bonita"
           alt="Maria Bonita"
           title="Maria Bonita"
           class="inline-flex items-center"
         >
           <nuxt-img format="webp" class="w-12" src="icon-pink.png" />
-        </a>
+        </NuxtLink>
         <div class="mt-6 lg:max-w-sm">
           <p class="text-sm text-gray-800 text-maria-pink">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -90,7 +90,8 @@
         >
         <div class="flex items-center mt-1 space-x-3">
           <a
-            href="/"
+            aria-label="Twitter"
+            href="https://www.twitter.com"
             class="
               text-maria-pink
               transition-colors
@@ -105,7 +106,8 @@
             </svg>
           </a>
           <a
-            href="/"
+            aria-label="Instagram"
+            href="https://www.instagram.com/mariabonitawp"
             class="
               text-gray-500
               transition-colors
@@ -122,7 +124,8 @@
             </svg>
           </a>
           <a
-            href="/"
+            aria-label="Facebook"
+            href="https://www.facebook.com"
             class="
               text-gray-500
               transition-colors

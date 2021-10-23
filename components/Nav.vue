@@ -142,6 +142,7 @@
                 <div>
                   <NuxtLink
                     to="/"
+                    alt="Maria Bonita"
                     aria-label="Maria Bonita"
                     title="Maria Bonita"
                     class="inline-flex items-center"
