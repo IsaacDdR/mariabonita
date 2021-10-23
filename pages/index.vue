@@ -85,7 +85,7 @@
                 sm:w-48
                 xl:w-56
               "
-              sizes="sm:200px md:400px"
+              sizes="sm:300px"
               src="/img/maria-bonita-1.jpeg"
               alt=""
             />
@@ -101,7 +101,7 @@
                 sm:w-32
                 xl:w-40
               "
-              sizes="sm:300px"
+              sizes="sm:500px"
               src="/img/maria-bonita-3.jpeg"
               alt=""
             />

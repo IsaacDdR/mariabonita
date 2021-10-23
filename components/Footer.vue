@@ -15,8 +15,9 @@
       <div class="sm:col-span-2">
         <a
           href="/"
-          aria-label="Go home"
-          title="Company"
+          aria-label="Maria Bonita"
+          alt="Maria Bonita"
+          title="Maria Bonita"
           class="inline-flex items-center"
         >
           <nuxt-img format="webp" class="w-12" src="icon-pink.png" />
@@ -32,7 +33,7 @@
           </p>
         </div>
       </div>
-      <div class="space-y-2 text-sm">
+      <div class="space-y-2 text-lg">
         <p class="text-base font-bold tracking-wide text-gray-900">Conttacto</p>
         <div class="flex">
           <p class="mr-1 text-red-500">Teléfono:</p>

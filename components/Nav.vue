@@ -22,6 +22,7 @@
       <div class="relative flex items-center justify-between">
         <NuxtLink
           to="/"
+          alt="Maria Bonita"
           aria-label="Maria Bonita"
           title="Maria Bonita"
           class="inline-flex items-center"

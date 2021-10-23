@@ -5,6 +5,7 @@
     class="h-full flex flex-col items-center justify-center"
   >
     <nuxt-img
+      alt="Maria Bonita"
       format="webp"
       src="/img/mariabonita.png"
       sizes="sm:80vw md:50vw lg:500px"
