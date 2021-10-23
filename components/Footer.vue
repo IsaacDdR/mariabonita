@@ -20,7 +20,12 @@
           title="Maria Bonita"
           class="inline-flex items-center"
         >
-          <nuxt-img format="webp" class="w-12" src="icon-pink.png" />
+          <nuxt-img
+            alt="Maria Bonita"
+            format="webp"
+            class="w-12"
+            src="icon-pink.png"
+          />
         </NuxtLink>
         <div class="mt-6 lg:max-w-sm">
           <p class="text-sm text-gray-800 text-maria-pink">

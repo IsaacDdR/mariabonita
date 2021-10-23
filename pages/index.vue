@@ -146,7 +146,7 @@
         class="flex flex-col w-full mb-6 lg:justify-between lg:flex-row md:mb-8"
       >
         <div class="flex items-center mb-5 md:mb-6 group lg:max-w-xl">
-          <span aria-label="Item" class="mr-3">
+          <span class="mr-3">
             <div
               class="
                 flex
