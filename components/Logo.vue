@@ -4,6 +4,6 @@
     data-aos-duration="2000"
     class="h-full flex flex-col items-center justify-center"
   >
-    <nuxt-img src="/img/mariabonita.png" class="w-3/4 md:w-1/2" />
+    <nuxt-img format="webp" src="/img/mariabonita.png" class="w-3/4 md:w-1/2" />
   </div>
 </template>
