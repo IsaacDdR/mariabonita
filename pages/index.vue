@@ -71,7 +71,8 @@
         </div>
         <div class="flex items-center justify-center -mx-4 lg:pl-8">
           <div class="flex flex-col items-end px-3">
-            <img
+            <nuxt-img
+              format="webp"
               class="
                 object-cover
                 mb-6
@@ -84,10 +85,11 @@
                 sm:w-48
                 xl:w-56
               "
-              src="https://images.pexels.com/photos/3184287/pexels-photo-3184287.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              sizes="sm:200px md:400px"
+              src="/img/maria-bonita-1.jpeg"
               alt=""
             />
-            <img
+            <nuxt-img
               class="
                 object-cover
                 w-20
@@ -99,12 +101,13 @@
                 sm:w-32
                 xl:w-40
               "
-              src="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              sizes="sm:300px"
+              src="/img/maria-bonita-3.jpeg"
               alt=""
             />
           </div>
           <div class="px-3">
-            <img
+            <nuxt-img
               class="
                 object-cover
                 w-40
@@ -116,7 +119,8 @@
                 sm:w-64
                 xl:w-80
               "
-              src="https://images.pexels.com/photos/3182739/pexels-photo-3182739.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+              sizes="sm:300px md:500px"
+              src="/img/maria-bonita-2.jpeg"
               alt=""
             />
           </div>

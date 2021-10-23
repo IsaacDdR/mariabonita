@@ -19,7 +19,7 @@
           title="Company"
           class="inline-flex items-center"
         >
-          <nuxt-img class="w-12" src="icon-pink.png" />
+          <nuxt-img format="webp" class="w-12" src="icon-pink.png" />
         </a>
         <div class="mt-6 lg:max-w-sm">
           <p class="text-sm text-gray-800 text-maria-pink">
