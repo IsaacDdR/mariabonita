@@ -27,7 +27,12 @@
           title="Maria Bonita"
           class="inline-flex items-center"
         >
-          <nuxt-img format="webp" class="w-14" src="icon-pink.png" />
+          <nuxt-img
+            alt="Maria Bonita"
+            format="webp"
+            class="w-14"
+            src="icon-pink.png"
+          />
         </NuxtLink>
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>

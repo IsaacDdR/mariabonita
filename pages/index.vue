@@ -28,13 +28,13 @@
                 text-5xl
                 font-bold
                 tracking-tight
-                text-maria-pink
+                text-red-100
                 sm:leading-none
               "
             >
               Déjanos crear una <br class="hidden md:block" />
               experiencia
-              <span class="inline-block text-red-400">inolvidable</span>
+              <span class="inline-block text-red-200">inolvidable</span>
             </h2>
             <p class="text-base text-red-100 text-xl md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
