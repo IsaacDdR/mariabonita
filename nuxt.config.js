@@ -21,6 +21,7 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
       {
         rel: 'stylesheet',
+        media: 'all',
         href: 'https://fonts.googleapis.com/css2?family=Poiret+One&display=swap',
       },
     ],
