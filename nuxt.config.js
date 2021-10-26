@@ -4,8 +4,9 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'mariabonita',
+    title: 'Maria Bonita WP',
     meta: [
+      { name: 'theme-color', content: '#dba4a2' },
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
@@ -41,11 +42,18 @@ export default {
     },
   },
 
+  googleFonts: {
+    families: {
+      'Poiret+one': true,
+    },
+  },
+
   // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/google-fonts',
     'nuxt-vite',
     '@nuxtjs/fontawesome',
     '@nuxt/image',
