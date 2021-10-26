@@ -7,7 +7,7 @@
     <nuxt-img
       alt="Maria Bonita"
       src="/maria-bonita.svg"
-      sizes="sm:80vw md:50vw lg:500px"
+      class="w-1/2 md:w-1/4"
     />
   </div>
 </template>
