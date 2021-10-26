@@ -6,8 +6,7 @@
   >
     <nuxt-img
       alt="Maria Bonita"
-      format="webp"
-      src="/img/mariabonita.png"
+      src="/maria-bonita.svg"
       sizes="sm:80vw md:50vw lg:500px"
     />
   </div>
