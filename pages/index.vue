@@ -102,7 +102,7 @@
                 xl:w-40
               "
               format="webp"
-              sizes="sm:500px"
+              sizes="xs:100px lg:400px"
               src="/img/maria-bonita-3.jpeg"
               alt=""
             />
@@ -120,7 +120,7 @@
                 sm:w-64
                 xl:w-80
               "
-              sizes="sm:300px md:500px"
+              sizes="sm:200px md:400px"
               format="webp"
               src="/img/maria-bonita-2.jpeg"
               alt=""

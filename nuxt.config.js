@@ -69,9 +69,11 @@ export default {
     },
   },
 
+  /*
   router: {
     base: '/mariabonita/',
   },
+  */
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
     extractCss: true,
