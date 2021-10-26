@@ -30,7 +30,7 @@
           <nuxt-img
             alt="Maria Bonita"
             format="webp"
-            class="w-14"
+            class="w-12"
             src="icon-pink.png"
           />
         </NuxtLink>
