@@ -561,9 +561,10 @@ export default {
     },
   },
   mounted() {
-    if (navigator.userAgent.toLowerCase().includes('iphone')) this.ios = true
-    if (navigator.userAgent.toLowerCase().includes('android'))
-      this.android = true
+    /*
+    if (navigator.userAgentData.includes('iphone')) this.ios = true
+    if (navigator.userAgentData.includes('android')) this.android = true
+    */
   },
 }
 </script>
