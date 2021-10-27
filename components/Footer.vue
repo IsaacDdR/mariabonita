@@ -288,7 +288,7 @@
         lg:flex-row
       "
     >
-      <p class="text-sm text-gray-600">
+      <p class="text-sm text-gray-100">
         © Maria Bonita 2021. Todos los derechos reservados
       </p>
       <ul
@@ -304,7 +304,7 @@
           <a
             href="/"
             class="
-              text-sm text-gray-600
+              text-sm text-gray-100
               transition-colors
               duration-300
               hover:text-deep-purple-accent-400
@@ -316,7 +316,7 @@
           <a
             href="/"
             class="
-              text-sm text-gray-600
+              text-sm text-gray-100
               transition-colors
               duration-300
               hover:text-deep-purple-accent-400
