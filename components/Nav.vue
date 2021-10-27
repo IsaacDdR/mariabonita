@@ -215,20 +215,24 @@
         </ul>
         <ul class="flex items-center hidden space-x-8 text-2xl lg:flex">
           <li>
-            <a href="https://instagram.com/mariabonitawp">
+            <a
+              aria-label="Instagram"
+              href="https://instagram.com/mariabonitawp"
+            >
               <font-awesome-icon
                 class="ml-3 text-2xl text-maria-pink"
                 :icon="['fab', 'instagram']"
               />
             </a>
 
-            <a href="https://facebook.com/cintaticmx">
+            <a aria-label="Facebook" href="https://facebook.com/cintaticmx">
               <font-awesome-icon
                 class="ml-3 text-2xl text-maria-pink"
                 :icon="['fab', 'facebook']"
               />
             </a>
             <a
+              aria-label="Whatsapp"
               href="https://api.whatsapp.com/send?phone=525628348062&text=%C2%A1Hola!%20Quisiera%20saber%20m%C3%A1s%20informaci%C3%B3n%20acerca%20de%20sus%20servicios."
             >
               <font-awesome-icon
