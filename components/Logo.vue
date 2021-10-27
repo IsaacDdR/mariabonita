@@ -20,6 +20,7 @@
 
     <svg
       id="svg2"
+      class="w-3/4 md:1/2"
       version="1.1"
       fill="#dba4a2"
       xml:space="preserve"
