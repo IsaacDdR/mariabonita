@@ -4,6 +4,7 @@
       <Logo />
     </div>
     <div
+      id="first"
       data-aos="fade-up"
       data-aos-duration="1000"
       class="
@@ -85,7 +86,8 @@
                 sm:w-48
                 xl:w-56
               "
-              sizes="sm:300px"
+              width="250px"
+              height="250px"
               src="/img/maria-bonita-1.jpeg"
               alt=""
             />
@@ -102,7 +104,8 @@
                 xl:w-40
               "
               format="webp"
-              sizes="xs:100px lg:400px"
+              width="175px"
+              height="175px"
               src="/img/maria-bonita-3.jpeg"
               alt=""
             />
@@ -120,7 +123,8 @@
                 sm:w-64
                 xl:w-80
               "
-              sizes="sm:200px md:400px"
+              width="300px"
+              height="300px"
               format="webp"
               src="/img/maria-bonita-2.jpeg"
               alt=""
@@ -207,7 +211,8 @@
       </div>
       <div class="grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
         <div>
-          <img
+          <nuxt-img
+            format="webp"
             class="
               object-cover
               w-full
@@ -218,7 +223,9 @@
               md:h-64
               xl:h-80
             "
-            src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            width="500px"
+            height="500px"
+            src="/img/maria-bonita-4.jpeg"
             alt=""
           />
           <p
@@ -232,7 +239,7 @@
           </p>
         </div>
         <div>
-          <img
+          <nuxt-img
             class="
               object-cover
               w-full
@@ -243,7 +250,10 @@
               md:h-64
               xl:h-80
             "
-            src="https://images.pexels.com/photos/3182750/pexels-photo-3182750.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            format="webp"
+            width="500px"
+            height="500px"
+            src="/img/maria-bonita-5.jpeg"
             alt=""
           />
           <p
@@ -257,7 +267,7 @@
           </p>
         </div>
         <div>
-          <img
+          <nuxt-img
             class="
               object-cover
               w-full
@@ -268,7 +278,10 @@
               md:h-64
               xl:h-80
             "
-            src="https://images.pexels.com/photos/3182746/pexels-photo-3182746.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            format="webp"
+            width="500px"
+            height="500px"
+            src="/img/maria-bonita-6.jpeg"
             alt=""
           />
           <p
@@ -282,7 +295,7 @@
           </p>
         </div>
         <div>
-          <img
+          <nuxt-img
             class="
               object-cover
               w-full
@@ -293,7 +306,10 @@
               md:h-64
               xl:h-80
             "
-            src="https://images.pexels.com/photos/3184296/pexels-photo-3184296.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            format="webp"
+            width="500px"
+            height="500px"
+            src="/img/maria-bonita-7.jpeg"
             alt=""
           />
           <p
@@ -307,7 +323,7 @@
           </p>
         </div>
         <div>
-          <img
+          <nuxt-img
             class="
               object-cover
               w-full
@@ -318,7 +334,10 @@
               md:h-64
               xl:h-80
             "
-            src="https://images.pexels.com/photos/3184311/pexels-photo-3184311.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;w=500"
+            format="webp"
+            width="500px"
+            height="500px"
+            src="/img/maria-bonita-8.jpeg"
             alt=""
           />
           <p
@@ -332,7 +351,7 @@
           </p>
         </div>
         <div>
-          <img
+          <nuxt-img
             class="
               object-cover
               w-full
@@ -343,7 +362,10 @@
               md:h-64
               xl:h-80
             "
-            src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+            format="webp"
+            width="500px"
+            height="500px"
+            src="/img/maria-bonita-9.jpeg"
             alt=""
           />
           <p
@@ -387,5 +409,7 @@
 </template>
 
 <script>
-export default {}
+export default {
+  scrollToTop: true,
+}
 </script>

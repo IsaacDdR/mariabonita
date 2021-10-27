@@ -68,6 +68,8 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    'vue-scrollto/nuxt',
+
     '@nuxtjs/robots',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
