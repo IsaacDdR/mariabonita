@@ -5,8 +5,6 @@
     </div>
     <div
       id="first"
-      data-aos="fade-up"
-      data-aos-duration="1000"
       class="
         px-4
         py-16
@@ -29,15 +27,15 @@
                 text-5xl
                 font-bold
                 tracking-tight
-                text-maria-pink
+                text-maria-azucar
                 sm:leading-none
               "
             >
               Déjanos crear una <br class="hidden md:block" />
               experiencia
-              <span class="inline-block text-red-400">inolvidable</span>
+              <span class="inline-block text-maria-merlot">inolvidable</span>
             </h2>
-            <p class="text-base text-red-100 text-xl md:text-lg">
+            <p class="text-base text-maria-azucar text-xl md:text-lg">
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
               quae. explicabo.
@@ -70,7 +68,11 @@
             </NuxtLink>
           </div>
         </div>
-        <div class="flex items-center justify-center -mx-4 lg:pl-8">
+        <div
+          data-aos="slide-up"
+          data-aos-duration="1000"
+          class="flex items-center justify-center -mx-4 lg:pl-8"
+        >
           <div class="flex flex-col items-end px-3">
             <nuxt-img
               format="webp"
@@ -134,7 +136,8 @@
       </div>
     </div>
     <div
-      data-aos="fade-up"
+      data-aos="slide-up"
+      data-aos-duration="1000"
       class="
         px-4
         py-16
@@ -184,23 +187,11 @@
               font-bold
               leading-none
               tracking-tight
-              text-maria-pink
+              text-maria-merlot
               sm:text-4xl
             "
           >
             <span class="inline-block mb-2">Momentos memorables</span>
-            <div
-              class="
-                h-1
-                ml-auto
-                duration-300
-                origin-left
-                transform
-                bg-red-500
-                scale-x-30
-                group-hover:scale-x-100
-              "
-            ></div>
           </h2>
         </div>
         <p class="w-full text-maria-pink text-xl lg:max-w-md">
@@ -229,11 +220,18 @@
             alt=""
           />
           <p
-            class="mb-2 text-xl font-bold text-red-400 leading-none sm:text-2xl"
+            class="
+              mb-2
+              text-xl
+              font-bold
+              text-maria-merlot
+              leading-none
+              sm:text-2xl
+            "
           >
             Galaxies Orion
           </p>
-          <p class="text-gray-700 text-maria-pink">
+          <p class="text-gray-700 text-maria-azucar">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -257,11 +255,18 @@
             alt=""
           />
           <p
-            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+            class="
+              mb-2
+              text-xl
+              font-bold
+              leading-none
+              sm:text-2xl
+              text-maria-merlot
+            "
           >
             Tunguska event
           </p>
-          <p class="text-gray-700 text-maria-pink">
+          <p class="text-gray-700 text-maria-azucar">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -285,11 +290,18 @@
             alt=""
           />
           <p
-            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+            class="
+              mb-2
+              text-xl
+              font-bold
+              leading-none
+              sm:text-2xl
+              text-maria-merlot
+            "
           >
             Yolo ipsum dolor
           </p>
-          <p class="text-gray-700 text-maria-pink">
+          <p class="text-gray-700 text-maria-azucar">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -313,11 +325,18 @@
             alt=""
           />
           <p
-            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+            class="
+              mb-2
+              text-xl
+              font-bold
+              leading-none
+              sm:text-2xl
+              text-maria-merlot
+            "
           >
             Curabitur mattis
           </p>
-          <p class="text-gray-700 text-maria-pink">
+          <p class="text-gray-700 text-maria-azucar">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -341,11 +360,18 @@
             alt=""
           />
           <p
-            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+            class="
+              mb-2
+              text-xl
+              font-bold
+              leading-none
+              sm:text-2xl
+              text-maria-merlot
+            "
           >
             Leverage agile
           </p>
-          <p class="text-gray-700 text-maria-pink">
+          <p class="text-gray-700 text-maria-azucar">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -369,11 +395,18 @@
             alt=""
           />
           <p
-            class="mb-2 text-xl font-bold leading-none sm:text-2xl text-red-400"
+            class="
+              mb-2
+              text-xl
+              font-bold
+              leading-none
+              sm:text-2xl
+              text-maria-merlot
+            "
           >
             Organically grow
           </p>
-          <p class="text-gray-700 text-maria-pink">
+          <p class="text-gray-700 text-maria-azucar">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>

@@ -154,20 +154,20 @@
           -->
         </NuxtLink>
         <div class="mt-6 lg:max-w-sm">
-          <p class="text-sm text-gray-800 text-maria-pink">
+          <p class="text-sm text-gray-800 text-maria-azucar">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium doloremque laudantium, totam rem aperiam.
           </p>
-          <p class="mt-4 text-sm text-gray-800 text-maria-pink">
+          <p class="mt-4 text-sm text-gray-800 text-maria-azucar">
             Eaque ipsa quae ab illo inventore veritatis et quasi architecto
             beatae vitae dicta sunt explicabo.
           </p>
         </div>
       </div>
       <div class="space-y-2 text-lg">
-        <p class="text-base font-bold tracking-wide text-gray-900">Conttacto</p>
+        <p class="text-base font-bold tracking-wide text-gray-900">Contacto</p>
         <div class="flex">
-          <p class="mr-1 text-red-500">Teléfono:</p>
+          <p class="mr-1 text-maria-merlot">Teléfono:</p>
           <a
             href="tel:850-123-5021"
             aria-label="Our phone"
@@ -182,7 +182,7 @@
           >
         </div>
         <div class="flex">
-          <p class="mr-1 text-red-500">Email:</p>
+          <p class="mr-1 text-maria-merlot">Email:</p>
           <a
             href="mailto:info@lorem.mail"
             aria-label="Our email"
@@ -197,7 +197,7 @@
           >
         </div>
         <div class="flex">
-          <p class="mr-1 text-red-500">Dirección:</p>
+          <p class="mr-1 text-maria-merlot">Dirección:</p>
           <a
             href="https://www.google.com/maps"
             target="_blank"
@@ -211,7 +211,7 @@
               hover:text-red-400
             "
           >
-            312 Lovely Street, NY
+            Querétaro, México
           </a>
         </div>
       </div>
@@ -221,22 +221,6 @@
         >
         <div class="flex items-center mt-1 space-x-3">
           <a
-            aria-label="Twitter"
-            href="https://www.twitter.com"
-            class="
-              text-maria-pink
-              transition-colors
-              duration-300
-              hover:text-red-400
-            "
-          >
-            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
-              <path
-                d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
-              ></path>
-            </svg>
-          </a>
-          <a
             aria-label="Instagram"
             href="https://www.instagram.com/mariabonitawp"
             class="
@@ -244,7 +228,7 @@
               transition-colors
               duration-300
               text-maria-pink
-              hover:text-red-400
+              hover:text-maria-merlot
             "
           >
             <svg viewBox="0 0 30 30" fill="currentColor" class="h-6">
@@ -254,15 +238,53 @@
               ></path>
             </svg>
           </a>
+
           <a
+            v-if="ios"
+            href="fb://profile/105256868508504"
             aria-label="Facebook"
-            href="https://www.facebook.com"
             class="
               text-gray-500
               transition-colors
               duration-300
               text-maria-pink
-              hover:text-red-400
+              hover:text-maria-merlot
+            "
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+              <path
+                d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            v-else-if="android"
+            href="fb://page/105256868508504"
+            aria-label="Facebook"
+            class="
+              text-gray-500
+              transition-colors
+              duration-300
+              text-maria-pink
+              hover:text-maria-merlot
+            "
+          >
+            <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+              <path
+                d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            v-else
+            href="https://www.facebook.com/105256868508504"
+            aria-label="Facebook"
+            class="
+              text-gray-500
+              transition-colors
+              duration-300
+              text-maria-pink
+              hover:text-maria-merlot
             "
           >
             <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
@@ -328,3 +350,19 @@
     </div>
   </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      ios: null,
+      android: null,
+    }
+  },
+
+  mounted() {
+    if (navigator.userAgent.toLowerCase().includes('iphone')) this.ios = true
+    if (navigator.userAgent.toLowerCase().includes('android'))
+      this.android = true
+  },
+}
+</script>

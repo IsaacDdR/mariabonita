@@ -1,6 +1,7 @@
 <template>
   <div
     class="
+      z-30
       fixed
       w-full
       backdrop-filter backdrop-blur-xl
@@ -172,7 +173,7 @@
                 tracking-wide
                 transition-colors
                 duration-200
-                text-maria-pink
+                text-maria-merlot
                 hover:text-red-300
               "
               >Galería</NuxtLink
@@ -187,7 +188,7 @@
                 text-2xl
                 font-bold
                 tracking-wide
-                text-maria-pink
+                text-maria-merlot
                 hover:text-red-300
                 transition-colors
                 duration-200
@@ -204,7 +205,7 @@
                 text-2xl
                 font-bold
                 tracking-wide
-                text-maria-pink
+                text-maria-merlot
                 hover:text-red-300
                 transition-colors
                 duration-200
@@ -499,21 +500,21 @@
                   </li>
                 </ul>
                 <span class="flex mt-5 justify-center text-2xl">
-                  <a v-if="ios" href="fb://profile/106070931823082">
+                  <a v-if="ios" href="fb://profile/105256868508504">
                     <font-awesome-icon
                       class="mx-5 text-3xl"
                       :icon="['fab', 'facebook']"
                     />
                   </a>
 
-                  <a v-else-if="android" href="fb://page/106070931823082">
+                  <a v-else-if="android" href="fb://page/105256868508504">
                     <font-awesome-icon
                       class="mx-5 text-3xl"
                       :icon="['fab', 'facebook']"
                     />
                   </a>
 
-                  <a v-else href="https://facebook.com/cintaticmx">
+                  <a v-else href="https://facebook.com/105256868508504">
                     <font-awesome-icon
                       class="mx-5 text-3xl"
                       :icon="['fab', 'facebook']"
@@ -531,7 +532,7 @@
                       :icon="['fab', 'whatsapp']"
                     />
                   </a>
-                  <a href="tel:5628348062">
+                  <a href="tel:9981112303">
                     <font-awesome-icon
                       class="mx-5 text-3xl"
                       :icon="['fas', 'phone']"
@@ -561,10 +562,9 @@ export default {
     },
   },
   mounted() {
-    /*
-    if (navigator.userAgentData.includes('iphone')) this.ios = true
-    if (navigator.userAgentData.includes('android')) this.android = true
-    */
+    if (navigator.userAgent.toLowerCase().includes('iphone')) this.ios = true
+    if (navigator.userAgent.toLowerCase().includes('android'))
+      this.android = true
   },
 }
 </script>

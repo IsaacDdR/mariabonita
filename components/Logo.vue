@@ -584,7 +584,7 @@
       </g>
     </svg>
     <div v-scroll-to="{ el: '#first', offset: -50 }" class="text-center mt-8">
-      <p class="text-center text-maria-pink">Descúbrenos</p>
+      <p class="text-center text-xl text-maria-pink">Descúbrenos</p>
 
       <font-awesome-icon
         class="animate-bounce infinite text-maria-pink"
