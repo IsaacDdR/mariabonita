@@ -25,46 +25,64 @@
         <div class="flex flex-wrap w-1/2">
           <div class="md:p-2 p-1 w-1/2">
             <img
-              alt="gallery"
+              alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/500x300"
+              width="500"
+              height="300"
+              format="webp"
+              src="/img/maria-bonita-9.jpeg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
-              alt="gallery"
+              alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/501x301"
+              width="500"
+              height="300"
+              format="webp"
+              src="/img/maria-bonita-10.jpeg"
             />
           </div>
           <div class="md:p-2 p-1 w-full">
             <img
-              alt="gallery"
+              alt="Maria Bonita"
               class="w-full h-full object-cover object-center block"
-              src="https://dummyimage.com/600x360"
+              width="600"
+              height="300"
+              format="webp"
+              src="/img/maria-bonita-11.jpeg"
             />
           </div>
         </div>
         <div class="flex flex-wrap w-1/2">
           <div class="md:p-2 p-1 w-full">
             <img
-              alt="gallery"
+              alt="Maria Bonita"
               class="w-full h-full object-cover object-center block"
-              src="https://dummyimage.com/601x361"
+              width="600"
+              height="300"
+              format="webp"
+              src="/img/maria-bonita-12.jpeg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
-              alt="gallery"
+              alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/502x302"
+              width="500"
+              height="300"
+              format="webp"
+              src="/img/maria-bonita-13.jpeg"
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
             <img
-              alt="gallery"
+              alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
-              src="https://dummyimage.com/503x303"
+              width="500"
+              height="300"
+              format="webp"
+              src="/img/maria-bonita-14.jpeg"
             />
           </div>
         </div>

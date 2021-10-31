@@ -53,7 +53,6 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    '@nuxtjs/svg',
     '@nuxtjs/google-fonts',
     'nuxt-vite',
     '@nuxtjs/fontawesome',
@@ -68,7 +67,7 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
-    'vue-scrollto/nuxt',
+    // 'vue-scrollto/nuxt',
 
     '@nuxtjs/robots',
     // https://go.nuxtjs.dev/pwa

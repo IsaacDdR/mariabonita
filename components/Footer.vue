@@ -306,7 +306,7 @@
         justify-between
         pt-5
         pb-10
-        border-t border-red-500
+        border-t border-maria-merlot
         lg:flex-row
       "
     >

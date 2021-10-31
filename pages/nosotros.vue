@@ -1,558 +1,390 @@
 <template>
-  <div>
-    <section class="text-gray-600 body-font pt-12">
-      <div class="container px-5 py-24 mx-auto">
+  <div class="pt-24">
+    <div
+      class="
+        px-4
+        py-16
+        mx-auto
+        sm:max-w-xl
+        md:max-w-full
+        lg:max-w-screen-xl
+        md:px-24
+        lg:px-8 lg:py-20
+      "
+    >
+      <div class="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div
-          class="flex flex-wrap w-full mb-20 flex-col items-center text-center"
+          class="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12"
         >
-          <h1
+          <h2
             class="
-              sm:text-3xl
-              text-2xl
-              font-medium
-              title-font
-              mb-2
-              text-maria-pink
+              max-w-lg
+              mb-6
+              font-sans
+              text-3xl
+              font-bol
+              text-maria-merlotd
+              leading-none
+              text-maria-merlot
+              tracking-tight
+              sm:text-4xl
+              md:mx-auto
             "
           >
-            Pitchfork Kickstarter Taxidermy
-          </h1>
-          <p class="lg:w-1/2 w-full leading-relaxed text-gray-500">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table.
+            <span class="relative inline-block">
+              <svg
+                viewBox="0 0 52 24"
+                fill="currentColor"
+                class="
+                  absolute
+                  top-0
+                  left-0
+                  z-0
+                  hidden
+                  w-32
+                  -mt-8
+                  -ml-20
+                  text-maria-azucar
+                  lg:w-32 lg:-ml-28 lg:-mt-10
+                  sm:block
+                "
+              >
+                <defs>
+                  <pattern
+                    id="70326c9b-4a0f-429b-9c76-792941e326d5"
+                    x="0"
+                    y="0"
+                    width=".135"
+                    height=".30"
+                  >
+                    <circle cx="1" cy="1" r=".7"></circle>
+                  </pattern>
+                </defs>
+                <rect
+                  fill="url(#70326c9b-4a0f-429b-9c76-792941e326d5)"
+                  width="52"
+                  height="24"
+                ></rect>
+              </svg>
+              <span class="relative">The</span>
+            </span>
+            quick, brown fox jumps over a lazy dog
+          </h2>
+          <p class="text-base text-maria-azucar md:text-lg">
+            Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+            accusantium doloremque rem aperiam, eaque ipsa quae.
           </p>
         </div>
-        <div class="flex flex-wrap -m-4">
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 bg-maria-pink p-6 rounded-lg">
-              <div
-                class="
-                  w-10
-                  h-10
-                  inline-flex
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-gray-900
-                  text-maria-pink
-                  mb-4
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-              </div>
-              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                Shooting Stars
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+      </div>
+      <div class="max-w-screen-xl sm:mx-auto">
+        <div class="grid grid-cols-1 gap-16 row-gap-8 lg:grid-cols-2">
+          <div class="space-y-8">
+            <div>
+              <p class="mb-4 text-xl font-medium text-maria-merlot">
+                The quick, brown fox jumps over a lazy dog?
+              </p>
+              <p class="text-maria-azucar">
+                Space, the final frontier. These are the voyages of the Starship
+                Enterprise. Its five-year mission: to explore strange new
+                worlds.<br />
+                <br />
+                Many say exploration is part of our destiny, but it’s actually
+                our duty to future generations.
+              </p>
+            </div>
+            <div>
+              <p class="mb-4 text-xl font-medium text-maria-merlot">
+                The first mate and his Skipper too will do?
+              </p>
+              <p class="text-maria-azucar">
+                Well, the way they make shows is, they make one show. That
+                show's called a pilot.<br />
+                <br />
+                Then they show that show to the people who make shows, and on
+                the strength of that one show they decide if they're going to
+                make more shows. Some pilots get picked and become television
+                programs.Some don't, become nothing. She starred in one of the
+                ones that became nothing.
+              </p>
+            </div>
+            <div>
+              <p class="mb-4 text-xl font-medium text-maria-merlot">
+                Is the Space Pope reptilian!?
+              </p>
+              <p class="text-maria-azucar">
+                A flower in my garden, a mystery in my panties. Heart attack
+                never stopped old Big Bear. I didn't even know we were calling
+                him Big Bear.
               </p>
             </div>
           </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 bg-maria-pink rounded-lg">
-              <div
-                class="
-                  w-10
-                  h-10
-                  inline-flex
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-gray-900
-                  text-maria-pink
-                  mb-4
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="6" cy="6" r="3"></circle>
-                  <circle cx="6" cy="18" r="3"></circle>
-                  <path
-                    d="M20 4L8.12 15.88M14.47 14.48L20 20M8.12 8.12L12 12"
-                  ></path>
-                </svg>
-              </div>
-              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                The Catalyzer
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+          <div class="space-y-8">
+            <div>
+              <p class="mb-4 text-xl font-medium text-maria-merlot">
+                How much money you got on you?
+              </p>
+              <p class="text-maria-azucar">
+                The first mate and his Skipper too will do their very best to
+                make the others comfortable in their tropic island nest.<br />
+                <br />
+                Michael Knight a young loner on a crusade to champion the cause
+                of the innocent. The helpless. The powerless in a world of
+                criminals who operate above the law. Here he comes Here comes
+                Speed Racer. He's a demon on wheels.
               </p>
             </div>
-          </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 bg-maria-pink rounded-lg">
-              <div
-                class="
-                  w-10
-                  h-10
-                  inline-flex
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-gray-900
-                  text-maria-pink
-                  mb-4
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </div>
-              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                Neptune
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+            <div>
+              <p class="mb-4 text-xl font-medium text-maria-merlot">
+                Galaxies Orion's sword globular star cluster?
+              </p>
+              <p class="text-maria-azucar">
+                A business big enough that it could be listed on the NASDAQ goes
+                belly up. Disappears!<br />
+                <br />
+                It ceases to exist without me. No, you clearly don't know who
+                you're talking to, so let me clue you in.
               </p>
             </div>
-          </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 bg-maria-pink rounded-lg">
-              <div
-                class="
-                  w-10
-                  h-10
-                  inline-flex
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-gray-900
-                  text-maria-pink
-                  mb-4
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1zM4 22v-7"
-                  ></path>
-                </svg>
-              </div>
-              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                Melanchole
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+            <div>
+              <p class="mb-4 text-xl font-medium text-maria-merlot">
+                When has justice ever been as simple as a rule book?
               </p>
-            </div>
-          </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 bg-maria-pink rounded-lg">
-              <div
-                class="
-                  w-10
-                  h-10
-                  inline-flex
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-gray-900
-                  text-maria-pink
-                  mb-4
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M21 12.79A9 9 0 1111.21 3 7 7 0 0021 12.79z"></path>
-                </svg>
-              </div>
-              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                Bunker
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
-              </p>
-            </div>
-          </div>
-          <div class="xl:w-1/3 md:w-1/2 p-4">
-            <div class="border border-gray-200 p-6 bg-maria-pink rounded-lg">
-              <div
-                class="
-                  w-10
-                  h-10
-                  inline-flex
-                  items-center
-                  justify-center
-                  rounded-full
-                  bg-gray-900
-                  text-maria-pink
-                  mb-4
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-6 h-6"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
-                </svg>
-              </div>
-              <h2 class="text-xl text-gray-900 font-medium title-font mb-2">
-                Ramona Falls
-              </h2>
-              <p class="leading-relaxed text-base">
-                Fingerstache flexitarian street art 8-bit waist co, subway tile
-                poke farm.
+              <p class="text-maria-azucar">
+                This is not about revenge. This is about justice. A lot of
+                things can change in twelve years, Admiral. Well, that's
+                certainly good to know. About four years. I got tired of hearing
+                how young I looked.
               </p>
             </div>
           </div>
         </div>
       </div>
-    </section>
-    <section class="text-gray-400 bg-gray-900 body-font">
-      <div class="container px-5 py-24 mx-auto flex flex-wrap">
-        <div class="flex flex-wrap w-full">
-          <div class="lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
-            <div class="flex relative pb-12">
-              <div
+    </div>
+    <div
+      class="
+        px-4
+        py-16
+        mx-auto
+        sm:max-w-xl
+        md:max-w-full
+        lg:max-w-screen-xl
+        md:px-24
+        lg:px-8 lg:py-20
+      "
+    >
+      <div class="mx-auto mb-10 lg:max-w-xl sm:text-center">
+        <p
+          class="
+            inline-block
+            px-3
+            py-px
+            mb-4
+            text-xs
+            font-semibold
+            tracking-wider
+            text-maria-merlot
+            uppercase
+            rounded-full
+            bg-teal-accent-400
+          "
+        >
+          Nuestro equipo
+        </p>
+        <p class="text-base text-maria-azucar md:text-lg">
+          Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+          accusantium doloremque laudantium.
+        </p>
+      </div>
+      <div
+        class="
+          grid
+          gap-10
+          mx-auto
+          sm:grid-cols-2
+          lg:grid-cols-4 lg:max-w-screen-lg
+        "
+      >
+        <div>
+          <div class="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              class="absolute object-cover w-full h-full rounded"
+              src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+          </div>
+          <div class="flex flex-col sm:text-center">
+            <p class="text-lg font-bold text-maria-merlot">Oliver Aguilerra</p>
+            <p class="mb-5 text-xs text-maria-pink">Product Manager</p>
+            <div class="flex items-center space-x-3 sm:justify-center">
+              <a
+                href="/"
                 class="
-                  h-full
-                  w-10
-                  absolute
-                  inset-0
-                  flex
-                  items-center
-                  justify-center
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
                 "
               >
-                <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
-              </div>
-              <div
-                class="
-                  flex-shrink-0
-                  w-10
-                  h-10
-                  rounded-full
-                  inline-flex
-                  bg-maria-pink
-                  items-center
-                  justify-center
-                  text-white
-                  relative
-                  z-10
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path>
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+                  ></path>
                 </svg>
-              </div>
-              <div class="flex-grow pl-4">
-                <h2
-                  class="
-                    font-medium
-                    title-font
-                    text-sm text-white
-                    mb-1
-                    tracking-wider
-                  "
-                >
-                  STEP 1
-                </h2>
-                <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-                </p>
-              </div>
-            </div>
-            <div class="flex relative pb-12">
-              <div
+              </a>
+              <a
+                href="/"
                 class="
-                  h-full
-                  w-10
-                  absolute
-                  inset-0
-                  flex
-                  items-center
-                  justify-center
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
                 "
               >
-                <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
-              </div>
-              <div
-                class="
-                  flex-shrink-0
-                  w-10
-                  h-10
-                  rounded-full
-                  bg-maria-pink
-                  inline-flex
-                  items-center
-                  justify-center
-                  text-white
-                  relative
-                  z-10
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+                  ></path>
                 </svg>
-              </div>
-              <div class="flex-grow pl-4">
-                <h2
-                  class="
-                    font-medium
-                    title-font
-                    text-sm text-white
-                    mb-1
-                    tracking-wider
-                  "
-                >
-                  STEP 2
-                </h2>
-                <p class="leading-relaxed">
-                  Vice migas literally kitsch +1 pok pok. Truffaut hot chicken
-                  slow-carb health goth, vape typewriter.
-                </p>
-              </div>
-            </div>
-            <div class="flex relative pb-12">
-              <div
-                class="
-                  h-full
-                  w-10
-                  absolute
-                  inset-0
-                  flex
-                  items-center
-                  justify-center
-                "
-              >
-                <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
-              </div>
-              <div
-                class="
-                  flex-shrink-0
-                  w-10
-                  h-10
-                  rounded-full
-                  inline-flex
-                  items-center
-                  justify-center
-                  text-white
-                  bg-maria-pink
-                  relative
-                  z-10
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <circle cx="12" cy="5" r="3"></circle>
-                  <path d="M12 22V8M5 12H2a10 10 0 0020 0h-3"></path>
-                </svg>
-              </div>
-              <div class="flex-grow pl-4">
-                <h2
-                  class="
-                    font-medium
-                    title-font
-                    text-sm text-white
-                    mb-1
-                    tracking-wider
-                  "
-                >
-                  STEP 3
-                </h2>
-                <p class="leading-relaxed">
-                  Coloring book nar whal glossier master cleanse umami. Salvia
-                  +1 master cleanse blog taiyaki.
-                </p>
-              </div>
-            </div>
-            <div class="flex relative pb-12">
-              <div
-                class="
-                  h-full
-                  w-10
-                  absolute
-                  inset-0
-                  flex
-                  items-center
-                  justify-center
-                "
-              >
-                <div class="h-full w-1 bg-gray-800 pointer-events-none"></div>
-              </div>
-              <div
-                class="
-                  flex-shrink-0
-                  w-10
-                  h-10
-                  rounded-full
-                  inline-flex
-                  items-center
-                  justify-center
-                  bg-maria-pink
-                  text-white
-                  relative
-                  z-10
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"></path>
-                  <circle cx="12" cy="7" r="4"></circle>
-                </svg>
-              </div>
-              <div class="flex-grow pl-4">
-                <h2
-                  class="
-                    font-medium
-                    title-font
-                    text-sm text-white
-                    mb-1
-                    tracking-wider
-                  "
-                >
-                  STEP 4
-                </h2>
-                <p class="leading-relaxed">
-                  VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk
-                  bespoke try-hard cliche palo santo offal.
-                </p>
-              </div>
-            </div>
-            <div class="flex relative">
-              <div
-                class="
-                  flex-shrink-0
-                  w-10
-                  h-10
-                  rounded-full
-                  bg-maria-pink
-                  inline-flex
-                  items-center
-                  justify-center
-                  text-white
-                  relative
-                  z-10
-                "
-              >
-                <svg
-                  fill="none"
-                  stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
-                  class="w-5 h-5"
-                  viewBox="0 0 24 24"
-                >
-                  <path d="M22 11.08V12a10 10 0 11-5.93-9.14"></path>
-                  <path d="M22 4L12 14.01l-3-3"></path>
-                </svg>
-              </div>
-              <div class="flex-grow pl-4">
-                <h2
-                  class="
-                    font-medium
-                    title-font
-                    text-sm text-white
-                    mb-1
-                    tracking-wider
-                  "
-                >
-                  FINISH
-                </h2>
-                <p class="leading-relaxed">
-                  Pitchfork ugh tattooed scenester echo park gastropub whatever
-                  cold-pressed retro.
-                </p>
-              </div>
+              </a>
             </div>
           </div>
-          <img
-            class="
-              lg:w-3/5
-              md:w-1/2
-              object-cover object-center
-              rounded-lg
-              md:mt-0
-              mt-12
-            "
-            src="https://dummyimage.com/1200x500"
-            alt="step"
-          />
+        </div>
+        <div>
+          <div class="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              class="absolute object-cover w-full h-full rounded"
+              src="https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+          </div>
+          <div class="flex flex-col sm:text-center">
+            <p class="text-lg font-bold text-maria-merlot">Marta Clermont</p>
+            <p class="mb-5 text-xs text-maria-pink">Design Team Lead</p>
+            <div class="flex items-center space-x-3 sm:justify-center">
+              <a
+                href="/"
+                class="
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
+                "
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="/"
+                class="
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
+                "
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              class="absolute object-cover w-full h-full rounded"
+              src="https://images.pexels.com/photos/3747435/pexels-photo-3747435.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+          </div>
+          <div class="flex flex-col sm:text-center">
+            <p class="text-lg font-bold text-maria-merlot">Alice Melbourne</p>
+            <p class="mb-5 text-xs text-maria-pink">Human Resources</p>
+            <div class="flex items-center space-x-3 sm:justify-center">
+              <a
+                href="/"
+                class="
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
+                "
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="/"
+                class="
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
+                "
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="relative pb-56 mb-4 rounded shadow lg:pb-64">
+            <img
+              class="absolute object-cover w-full h-full rounded"
+              src="https://images.pexels.com/photos/3931603/pexels-photo-3931603.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=2&amp;h=750&amp;w=1260"
+              alt="Person"
+            />
+          </div>
+          <div class="flex flex-col sm:text-center">
+            <p class="text-lg font-bold text-maria-merlot">John Doe</p>
+            <p class="mb-5 text-xs text-maria-pink">Good guy</p>
+            <div class="flex items-center space-x-3 sm:justify-center">
+              <a
+                href="/"
+                class="
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
+                "
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M24,4.6c-0.9,0.4-1.8,0.7-2.8,0.8c1-0.6,1.8-1.6,2.2-2.7c-1,0.6-2,1-3.1,1.2c-0.9-1-2.2-1.6-3.6-1.6 c-2.7,0-4.9,2.2-4.9,4.9c0,0.4,0,0.8,0.1,1.1C7.7,8.1,4.1,6.1,1.7,3.1C1.2,3.9,1,4.7,1,5.6c0,1.7,0.9,3.2,2.2,4.1 C2.4,9.7,1.6,9.5,1,9.1c0,0,0,0,0,0.1c0,2.4,1.7,4.4,3.9,4.8c-0.4,0.1-0.8,0.2-1.3,0.2c-0.3,0-0.6,0-0.9-0.1c0.6,2,2.4,3.4,4.6,3.4 c-1.7,1.3-3.8,2.1-6.1,2.1c-0.4,0-0.8,0-1.2-0.1c2.2,1.4,4.8,2.2,7.5,2.2c9.1,0,14-7.5,14-14c0-0.2,0-0.4,0-0.6 C22.5,6.4,23.3,5.5,24,4.6z"
+                  ></path>
+                </svg>
+              </a>
+              <a
+                href="/"
+                class="
+                  text-gray-600
+                  transition-colors
+                  duration-300
+                  hover:text-deep-purple-accent-400
+                "
+              >
+                <svg viewBox="0 0 24 24" fill="currentColor" class="h-5">
+                  <path
+                    d="M22,0H2C0.895,0,0,0.895,0,2v20c0,1.105,0.895,2,2,2h11v-9h-3v-4h3V8.413c0-3.1,1.893-4.788,4.659-4.788 c1.325,0,2.463,0.099,2.795,0.143v3.24l-1.918,0.001c-1.504,0-1.795,0.715-1.795,1.763V11h4.44l-1,4h-3.44v9H22c1.105,0,2-0.895,2-2 V2C24,0.895,23.105,0,22,0z"
+                  ></path>
+                </svg>
+              </a>
+            </div>
+          </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
 </template>
