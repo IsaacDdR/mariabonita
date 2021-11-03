@@ -171,8 +171,6 @@
                 text-2xl
                 font-bold
                 tracking-wide
-                transition-colors
-                duration-200
                 text-maria-merlot
                 hover:text-red-300
               "
@@ -190,8 +188,6 @@
                 tracking-wide
                 text-maria-merlot
                 hover:text-red-300
-                transition-colors
-                duration-200
               "
               >Nosotros</NuxtLink
             >
@@ -207,8 +203,6 @@
                 tracking-wide
                 text-maria-merlot
                 hover:text-red-300
-                transition-colors
-                duration-200
               "
               >Contacto</NuxtLink
             >
@@ -251,7 +245,6 @@
               p-2
               -mr-1
               transition
-              duration-200
               rounded
               focus:outline-none focus:shadow-outline
             "
@@ -431,7 +424,6 @@
                       -mt-2
                       -mr-2
                       transition
-                      duration-200
                       rounded
                       hover:bg-gray-200
                       focus:bg-gray-200 focus:outline-none focus:shadow-outline
@@ -459,8 +451,6 @@
                         font-bold
                         tracking-wide
                         text-black
-                        transition-colors
-                        duration-200
                         hover:text-deep-purple-accent-400
                       "
                       >Nosotros</NuxtLink
@@ -471,14 +461,7 @@
                       to="/galeria"
                       aria-label="Galería"
                       title="Galería"
-                      class="
-                        text-2xl
-                        font-bold
-                        tracking-wide
-                        text-black
-                        transition-colors
-                        duration-200
-                      "
+                      class="text-2xl font-bold tracking-wide text-black"
                       >Galería</NuxtLink
                     >
                   </li>
@@ -487,14 +470,7 @@
                       to="/contacto"
                       aria-label="Contacto"
                       title="Contacto"
-                      class="
-                        text-2xl
-                        font-bold
-                        tracking-wide
-                        text-black
-                        transition-colors
-                        duration-200
-                      "
+                      class="text-2xl font-bold tracking-wide text-black"
                       >Contacto</NuxtLink
                     >
                   </li>
