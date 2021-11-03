@@ -15,7 +15,14 @@
         >
           Master Cleanse Reliac Heirloom
         </h1>
-        <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
+        <p
+          class="
+            lg:pl-6 lg:w-2/3
+            mx-auto
+            leading-relaxed
+            text-base text-maria-azucar
+          "
+        >
           Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
           gentrify, subway tile poke farm-to-table. Franzen you probably haven't
           heard of them man bun deep jianbing selfies heirloom.
@@ -24,7 +31,7 @@
       <div class="flex flex-wrap md:-m-2 -m-1">
         <div class="flex flex-wrap w-1/2">
           <div class="md:p-2 p-1 w-1/2">
-            <img
+            <nuxt-img
               alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
               width="500"
@@ -34,7 +41,7 @@
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
-            <img
+            <nuxt-img
               alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
               width="500"
@@ -44,7 +51,7 @@
             />
           </div>
           <div class="md:p-2 p-1 w-full">
-            <img
+            <nuxt-img
               alt="Maria Bonita"
               class="w-full h-full object-cover object-center block"
               width="600"
@@ -56,7 +63,7 @@
         </div>
         <div class="flex flex-wrap w-1/2">
           <div class="md:p-2 p-1 w-full">
-            <img
+            <nuxt-img
               alt="Maria Bonita"
               class="w-full h-full object-cover object-center block"
               width="600"
@@ -66,7 +73,7 @@
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
-            <img
+            <nuxt-img
               alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
               width="500"
@@ -76,7 +83,7 @@
             />
           </div>
           <div class="md:p-2 p-1 w-1/2">
-            <img
+            <nuxt-img
               alt="Maria Bonita"
               class="w-full object-cover h-full object-center block"
               width="500"
