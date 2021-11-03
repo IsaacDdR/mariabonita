@@ -230,7 +230,7 @@
           >
             Galaxies Orion
           </p>
-          <p class="text-maria-azucar">
+          <p class="text-maria-azucar text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -265,7 +265,7 @@
           >
             Tunguska event
           </p>
-          <p class="text-maria-azucar">
+          <p class="text-maria-azucar text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -300,7 +300,7 @@
           >
             Yolo ipsum dolor
           </p>
-          <p class="text-maria-azucar">
+          <p class="text-maria-azucar text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -335,7 +335,7 @@
           >
             Curabitur mattis
           </p>
-          <p class="text-maria-azucar">
+          <p class="text-maria-azucar text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -370,7 +370,7 @@
           >
             Leverage agile
           </p>
-          <p class="text-maria-azucar">
+          <p class="text-maria-azucar text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
@@ -405,7 +405,7 @@
           >
             Organically grow
           </p>
-          <p class="text-maria-azucar">
+          <p class="text-maria-azucar text-lg">
             Sed ut perspiciatis unde omnis iste natus error sit voluptatem
             accusantium.
           </p>
