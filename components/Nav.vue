@@ -220,7 +220,10 @@
               />
             </a>
 
-            <a aria-label="Facebook" href="https://facebook.com/cintaticmx">
+            <a
+              aria-label="Facebook"
+              href="https://www.facebook.com/105256868508504"
+            >
               <font-awesome-icon
                 class="ml-3 text-2xl text-maria-pink"
                 :icon="['fab', 'facebook']"
