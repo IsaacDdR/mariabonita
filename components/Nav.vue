@@ -164,9 +164,9 @@
         <ul class="flex items-center hidden space-x-8 lg:flex">
           <li>
             <NuxtLink
-              to="/galeria"
-              aria-label="Galería"
-              title="Galería"
+              to="/servicios"
+              aria-label="Servicios"
+              title="Servicios"
               class="
                 text-2xl
                 font-bold
@@ -174,7 +174,7 @@
                 text-maria-merlot
                 hover:text-red-300
               "
-              >Galería</NuxtLink
+              >Servicios</NuxtLink
             >
           </li>
           <li>
@@ -205,6 +205,21 @@
                 hover:text-red-300
               "
               >Contacto</NuxtLink
+            >
+          </li>
+          <li>
+            <NuxtLink
+              to="/testimonios"
+              aria-label="Testimonios"
+              title="Testimonios"
+              class="
+                text-2xl
+                font-bold
+                tracking-wide
+                text-maria-merlot
+                hover:text-red-300
+              "
+              >Testimonios</NuxtLink
             >
           </li>
         </ul>
@@ -461,11 +476,20 @@
                   </li>
                   <li>
                     <NuxtLink
-                      to="/galeria"
-                      aria-label="Galería"
-                      title="Galería"
+                      to="/servicios"
+                      aria-label="Servicios"
+                      title="Servicios"
                       class="text-2xl font-bold tracking-wide text-black"
-                      >Galería</NuxtLink
+                      >Servicios</NuxtLink
+                    >
+                  </li>
+                  <li>
+                    <NuxtLink
+                      to="/testimonios"
+                      aria-label="Tesimoinos"
+                      title="Testimonios"
+                      class="text-2xl font-bold tracking-wide text-black"
+                      >Testimonios</NuxtLink
                     >
                   </li>
                   <li>
